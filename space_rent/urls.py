@@ -15,8 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('space_rent/', include('space_rent.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('avito.urls')),
+
 ]
