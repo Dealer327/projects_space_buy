@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sapce_rent.urls'
+ROOT_URLCONF = 'space_rent.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sapce_rent.wsgi.application'
+WSGI_APPLICATION = 'space_rent.wsgi.application'
 
 
 # Database

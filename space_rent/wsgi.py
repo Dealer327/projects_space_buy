@@ -1,5 +1,5 @@
 """
-WSGI config for sapce_rent project.
+WSGI config for space_rent project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sapce_rent.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'space_rent.settings')
 
 application = get_wsgi_application()
